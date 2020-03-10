@@ -1,0 +1,68 @@
+tabs:
+    fields:
+        promo_name:
+            label: 'wibxi.promotionsbanners::lang.promobanner.name'
+            span: auto
+            required: 1
+            type: text
+            tab: Information
+        promo_image:
+            label: 'wibxi.promotionsbanners::lang.promobanner.image'
+            mode: image
+            imageHeight: '200'
+            span: auto
+            type: mediafinder
+            tab: Information
+        promo_text:
+            label: 'wibxi.promotionsbanners::lang.promobanner.promotext'
+            size: tiny
+            span: auto
+            type: text
+            tab: Information
+        promo_link:
+            label: 'wibxi.promotionsbanners::lang.promobanner.link'
+            span: left
+            default: '#'
+            type: text
+            tab: Information
+        promo_start_date:
+            label: 'wibxi.promotionsbanners::lang.promobanner.promostartdate'
+            mode: datetime
+            span: left
+            type: datepicker
+            tab: Information
+        promo_end_date:
+            label: 'wibxi.promotionsbanners::lang.promobanner.promoenddate'
+            mode: datetime
+            span: left
+            type: datepicker
+            tab: Information
+        promo_status:
+            label: 'wibxi.promotionsbanners::lang.promobanner.enable'
+            span: auto
+            default: 1
+            required: 1
+            type: switch
+            tab: Information
+        promo_position:
+            label: 'wibxi.promotionsbanners::lang.promobanner.position'
+            options:
+                top: Top
+                center: Center
+                bottom: Bottom
+            showSearch: true
+            span: auto
+            type: dropdown
+            tab: Appearance
+        promo_background_color:
+            label: 'wibxi.promotionsbanners::lang.promobanner.backgroundcolor'
+            span: auto
+            default: '#ef5753'
+            type: colorpicker
+            tab: Appearance
+        promo_text_color:
+            label: 'wibxi.promotionsbanners::lang.promobanner.textcolor'
+            span: auto
+            default: '#ffffff'
+            type: colorpicker
+            tab: Appearance

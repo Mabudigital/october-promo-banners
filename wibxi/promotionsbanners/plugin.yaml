@@ -1,0 +1,11 @@
+plugin:
+    name: 'wibxi.promotionsbanners::lang.plugin.name'
+    description: 'wibxi.promotionsbanners::lang.plugin.description'
+    author: Wibxi
+    icon: oc-icon-certificate
+    homepage: 'https://wibxi.net'
+navigation:
+    promobanners:
+        label: 'wibxi.promotionsbanners::lang.promobanner.promobanners'
+        url: wibxi/promotionsbanners/promobanners
+        icon: oc-icon-certificate

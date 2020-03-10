@@ -1,0 +1,5 @@
+.bottom-promo-banner{max-height: 60px;text-align:center;font-size: 24px;font-weight:900; font-style: italic;}
+.bottom-promo-banner a{color:#fff}
+.bottom-promo-banner .promo-image{height: 50px !important; max-height:60px !important;}
+.bottom-promo-banner .promo-image img{height: 100% !important; width:auto !important;}
+.bottom-promo-banner .inline{display: inline-block;}

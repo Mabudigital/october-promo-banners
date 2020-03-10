@@ -1,0 +1,26 @@
+columns:
+    promo_name:
+        label: 'wibxi.promotionsbanners::lang.plugin.name'
+        type: text
+        searchable: true
+        sortable: true
+    promo_position:
+        label: 'wibxi.promotionsbanners::lang.promobanner.position'
+        type: text
+        searchable: true
+        sortable: true
+    promo_start_date:
+        label: 'wibxi.promotionsbanners::lang.promobanner.promostartdate'
+        type: timetense
+        searchable: true
+        sortable: true
+    promo_end_date:
+        label: 'wibxi.promotionsbanners::lang.promobanner.promoenddate'
+        type: timesince
+        searchable: true
+        sortable: true
+    promo_status:
+        label: 'wibxi.promotionsbanners::lang.promobanner.enable'
+        type: switch
+        searchable: true
+        sortable: true

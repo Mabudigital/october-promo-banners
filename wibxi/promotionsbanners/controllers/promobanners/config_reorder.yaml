@@ -1,0 +1,5 @@
+title: 'Promo Banners'
+modelClass: Wibxi\PromotionsBanners\Models\PromoBanner
+nameFrom: name
+toolbar:
+    buttons: reorder_toolbar

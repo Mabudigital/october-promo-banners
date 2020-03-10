@@ -1,0 +1,4 @@
+1.0.1: 'First version of PromoBanners'
+1.0.2:
+    - 'Create tables'
+    - create_promo_banners_table.php

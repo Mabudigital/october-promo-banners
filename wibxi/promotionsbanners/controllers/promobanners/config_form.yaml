@@ -1,0 +1,11 @@
+name: 'Promo Banners'
+modelClass: Wibxi\PromotionsBanners\Models\PromoBanner
+form: $/wibxi/promotionsbanners/models/promobanner/fields.yaml
+defaultRedirect: wibxi/promotionsbanners/promobanners
+create:
+    redirect: 'wibxi/promotionsbanners/promobanners/update/:id'
+    redirectClose: wibxi/promotionsbanners/promobanners
+update:
+    redirect: wibxi/promotionsbanners/promobanners
+    redirectClose: wibxi/promotionsbanners/promobanners
+preview: {  }
