@@ -14,7 +14,7 @@ class BottomBanner extends PromoBanners {
 
     public function onRun() {
             parent::onRun();
-            $this->addCss('assets/css/bottompbanner.css');
+            $this->addCss('assets/css/bottombanner.css');
     }
 
     public function defineProperties()
