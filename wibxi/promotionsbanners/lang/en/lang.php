@@ -25,5 +25,7 @@
         'promostartdate' => 'Promo Start Date',
         'promoenddate' => 'Promo End Date',
         'enable' => 'Enable',
+        'height' => 'Height',
+        'heightdescription' => 'Set banner height',
     ],
 ];
