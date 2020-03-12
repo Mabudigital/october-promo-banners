@@ -16,4 +16,17 @@ class CenterBanner extends PromoBanners {
             parent::onRun();
             $this->addCss('assets/css/centerbanner.css');
     }
+
+    public function defineProperties()
+    {
+        return [
+          'height' => [
+              'title'             => 'wibxi.promotionsbanners::lang.promobanner.height',
+              'description'       => 'wibxi.promotionsbanners::lang.promobanner.heightdescription',
+              'default'           => '150px',
+              'type'              => 'string',
+              'showExternalParam' => false
+          ],
+        ];
+    }
 }
