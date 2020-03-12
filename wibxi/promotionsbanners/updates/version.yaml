@@ -2,3 +2,5 @@
 1.0.2:
     - 'Create tables'
     - create_promo_banners_table.php
+1.0.3:
+    - 'Fix height property for banners'
