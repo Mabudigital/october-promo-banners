@@ -1,4 +1,4 @@
-.bottom-promo-banner{width: 100%;text-align:center;font-size: 24px;font-weight:900; font-style: italic;}
+.bottom-promo-banner{width: 100%;text-align:center;font-size:calc(8px + 1vw);font-weight:900; font-style: italic;}
 .bottom-promo-banner a{color:#fff}
 .bottom-promo-banner .promo-image{}
 .bottom-promo-banner .promo-image img{height: 100% !important; width:auto !important;}
