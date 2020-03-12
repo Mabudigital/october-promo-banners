@@ -19,7 +19,17 @@ class TopBanner extends PromoBanners {
             $this->addJs('assets/js/jquery.easing.1.3.js');
             $this->addJs('assets/js/jquery.waypoints.min.js');
     }
-
-
-
+    
+    public function defineProperties()
+    {
+        return [
+          'height' => [
+              'title'             => 'wibxi.promotionsbanners::lang.promobanner.height',
+              'description'       => 'wibxi.promotionsbanners::lang.promobanner.heightdescription',
+              'default'           => '150px',
+              'type'              => 'string',
+              'showExternalParam' => false
+          ],
+        ];
+    }
 }
