@@ -3,7 +3,7 @@
 {% if banners %}
 {% for banner in  banners %}
 {% if banner.promo_start_date < 'now'|date('Y-m-d H:i:s') and banner.promo_end_date > 'now'|date('Y-m-d H:i:s') and banner.promo_status == 1 and banner.promo_position == 'bottom' %}
-<div class="bottom-promo-banner" style="height:{{ __SELF__.property('height') }};line-height:{{ __SELF__.property('height')}} - 10px;background-color: {{banner.promo_background_color}};">
+<div class="bottom-promo-banner" style="height:{{ __SELF__.property('height') }};line-height:calc({{ __SELF__.property('height')}} - 10px);background-color: {{banner.promo_background_color}};">
   <div class="gtco-container animate-box {% if banner.promo_text %} py-2 {% endif %}" data-animate-effect="fadeInLeft">
     {# Use spaceless tag to remove spaces inside the A tag. #}
     {% spaceless %}
